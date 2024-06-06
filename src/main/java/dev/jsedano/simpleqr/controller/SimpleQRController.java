@@ -18,7 +18,7 @@ public class SimpleQRController {
 
   @RequestMapping("/")
   public String newRandomSelect(Model model) {
-    model.addAttribute("randomSelect", new TextAndQRImage());
+    model.addAttribute("textAndQRImage", new TextAndQRImage());
     return "inputQR";
   }
 
